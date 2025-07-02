@@ -74,6 +74,7 @@
 
 .pendingSummary button {
     border-color: #0d6efd;
+    margin-right: 5px;
 }
 
 .pendingSummary button:hover {
