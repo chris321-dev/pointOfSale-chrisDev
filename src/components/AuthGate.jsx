@@ -25,6 +25,12 @@ export default function AuthGate({ children }) {
     }
   };
 
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      handleLogin();
+    }
+  };
+
   if (authed) return children;
 
   return (
@@ -35,6 +41,7 @@ export default function AuthGate({ children }) {
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          onKeyDown={handleKeyDown}
         />
         <button onClick={handleLogin}>Continue</button>
       </div>
