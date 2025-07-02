@@ -1,0 +1,81 @@
+.appContainer {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+  background: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  align-content: center;
+  justify-content: center;
+}
+
+.title {
+  color: #0d6efd;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.cartList {
+  margin-top: 1.5rem;
+}
+
+.cartItem {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.cartItem button {
+  padding: 0.25rem 0.5rem;
+  background: #dee2e6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.summary {
+  margin-top: 1.5rem;
+  text-align: right;
+}
+
+.summary p {
+  margin: 0.2rem 0;
+  font-weight: 500;
+}
+
+.summary button {
+  background: #0d6efd;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.summary button:hover {
+  background: #0846c4;
+}
+
+.pendingSummary {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pendingSummary button {
+    border-color: #0d6efd;
+}
+
+.pendingSummary button:hover {
+    background-color: #a4bcdf;
+}

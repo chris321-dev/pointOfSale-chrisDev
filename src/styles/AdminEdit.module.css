@@ -1,0 +1,46 @@
+.adminContainer {
+  padding: 1rem;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.adminHeader {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.adminTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.adminTable th,
+.adminTable td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+  min-width: 100px;
+}
+
+.adminTable input {
+  width: 100%;
+  padding: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.adminTable button {
+  background: #dc3545;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.adminTable button:hover {
+  background: #c82333;
+}

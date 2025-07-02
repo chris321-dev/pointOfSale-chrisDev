@@ -1,0 +1,35 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.searchContainer input,
+.searchContainer select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.suggestionList {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.suggestionList li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.suggestionList li:hover {
+  background: #e9ecef;
+}
