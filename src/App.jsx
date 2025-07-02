@@ -4,7 +4,7 @@ import SearchBar from './components/SearchBar';
 import styles from './styles/App.module.css';
 
 function App() {
-  const formatCurrency = (amount) => `₦${amount.toLocaleString('en-NG')}`;
+  const formatCurrency = (amount) => `#${amount.toLocaleString('en-NG')}`;
 
   const [cart, setCart] = useState([]);
   const [pendingLists, setPendingLists] = useState([]);
@@ -98,16 +98,21 @@ function App() {
                     <h4>Pending List {index + 1}</h4>
                     {list.map(item => (
                       <div key={item.id} className={styles.pendingItem}>
-                        <span>{item.name}</span>
-                        <span>{item.size}</span>
-                        <span>{item.quantity}</span>
+                        <span>{item.name} |</span>
+                        <span>{item.size} |</span>
+                        <span>{item.quantity} |</span>
                         <span>{formatCurrency(item.price)}</span>
                       </div>
                     ))}
                     <div className={styles.pendingSummary}>
                       <p>Total Items: {totalQty}</p>
-                      <p>Total Price: ₦{formatCurrency(totalAmt)}</p>
-                      <button onClick={() => handleMoveToList(index)}>Move to List</button>
+                      <p>Total Price: {formatCurrency(totalAmt)}</p>
+                      <div className={styles.pendingButtons}>
+                        <button onClick={() => handleMoveToList(index)}>Move to List</button>
+                        <button onClick={() => {
+                          setPendingLists(pendingLists.filter((_, i) => i !== index));
+                        }}>X</button>
+                      </div>
                     </div>
                   </div>
                 );
