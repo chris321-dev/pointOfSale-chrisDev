@@ -80,3 +80,7 @@
 .pendingSummary button:hover {
     background-color: #a4bcdf;
 }
+
+.pendingItem span {
+  margin-right: 5px;
+}
