@@ -37,3 +37,7 @@
 .authBox button:hover {
   background: #0846c4;
 }
+
+.authBox h2 {
+  color: #0846c4
+}
