@@ -36,7 +36,7 @@ export default function AuthGate({ children }) {
   return (
     <div className={styles.authContainer}>
       <div className={styles.authBox}>
-        <h2>Enter Password</h2>
+        <h2 className={styles.text11}>Enter Password</h2>
         <input
           type="password"
           value={password}
