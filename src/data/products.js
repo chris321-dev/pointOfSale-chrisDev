@@ -663,6 +663,18 @@ export const products = [
   { id: 624, name: 'JRA ORGANIC BLACK SOAP', size: '500G', category: 'BLACK SOAP CUP', price: 3250, barcode: '2658554028582' },
   { id: 625, name: 'EGYPTIAN GLOW XTRA WHITENING MOLATO SOAP WITH ALMOND OIL, PAPAYA', size: '500G', category: 'BLACK SOAP CUP', price: 4150, barcode: '6156000205380' },
   { id: 626, name: 'DEBBITONE RADIANT SKIN SOAP ', size: '324G', category: 'BLACK SOAP CUP', price: 3000, barcode: '6034000102208' },
+  //##new product ##others
+  //##new product ##others
+  //##new product ##others
+  { id: 627, name: 'KIDDIE TEENZ LOTION MIX L', size: '400ML', category: 'LOTION', price: 3600, barcode: '' },
+  { id: 628, name: 'ADVANCED KOREAN SKIN BRIGHT & SMOOTH BODY LOTION', size: '500ML', category: 'LOTION', price: 16800, barcode: '8806194016283' },
+  { id: 629, name: 'NATURE WHITE SHOWER BATH GOAT MILK AND HONEY', size: '1200ML', category: 'LIQUID SOAP', price: 15000, barcode: '' },
+  { id: 630, name: 'MARHABA PRICKLY HEAT POWDER ROSE', size: '200G', category: 'TOILETRIES', price: 2000, barcode: '8901162031470' },
+  { id: 631, name: 'NIVEA LIP BALM MIX', size: '', category: 'MAKE UP', price: 3100, barcode: '' },
+  { id: 632, name: 'CARO WHITE LOTION L', size: '500ML', category: 'LOTION', price: 4800, barcode: '6181100530001' },
+  { id: 633, name: 'IMAN SHOWER GEL ROSE & CARROT OIL', size: '2000ML', category: 'LIQUID SOAP', price: 7800, barcode: '' },
+  { id: 634, name: 'CLINIC CLEAR SKIN WHITENING SOAP L', size: '250MG', category: 'Soap', price: 1900, barcode: '6181100284218' },
+
 
 
 
@@ -671,6 +683,6 @@ export const products = [
   
   
   
-  //OTHERS TO ADD LATER""" NATURE WHITE BODY WASH, MARHABA POWDER, PUREC EGYPTIAN SHOWER CREAM, EXTREME GLOW BODY WASH, FACEFACTS CERAMIDE BODY WASH, NIVEA LIP BALM, CARO WHITE LOTION L, ##new product ##others
+  //OTHERS TO ADD LATER"""  PUREC EGYPTIAN SHOWER CREAM, EXTREME GLOW BODY WASH, FACEFACTS CERAMIDE BODY WASH, NIVEA LIP BALM, CARO WHITE LOTION L, ##new product ##others
 
 ];
