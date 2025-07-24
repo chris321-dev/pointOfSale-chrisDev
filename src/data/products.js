@@ -443,7 +443,7 @@ export const products = [
   { id: 415, name: 'L\'EVINIA POWDER MIX S', size: '50G', category: 'TOILETRIES', price: 1350, barcode: '' },
   { id: 416, name: 'FLORENTYNA BODY POWDER WITH SILK ', size: '50G', category: 'TOILETRIES', price: 5000, barcode: '' },
   { id: 417, name: 'POND\'S ANGEL FACE POWDER S', size: '', category: 'TOILETRIES', price: 1200, barcode: '8851932111805' },
-  { id: 418, name: 'HALF CAST FLAWLESS POWDER ', size: '50G', category: 'TOILETRIES', price: 1800, barcode: '714084861845' },
+  { id: 418, name: 'HALF CAST FLAWLESS POWDER ', size: '50G', category: 'TOILETRIES', price: 2400, barcode: '714084861845' },
   { id: 419, name: 'HALF CAST U.S.A COMPACT UNIQUE GLOW FACE POWDER', size: '50G', category: 'TOILETRIES', price: 3000, barcode: '714084861869' },
   { id: 420, name: 'JOHNSON\'S COTTON BUDS 200BUDS', size: '', category: 'TOILETRIES', price: 1800, barcode: '' },
   { id: 421, name: 'HMEIL COTTON BUD ', size: '', category: 'TOILETRIES', price: 1200, barcode: '6971802096185' },
@@ -563,8 +563,8 @@ export const products = [
   { id: 529, name: 'F&W FAIR AND WHITE MISS WHITE BODY LOTION', size: '500ML', category: 'LOTION', price: 16200, barcode: '877917004502' },
   { id: 530, name: 'ACTIVE WHITE PROFESSIONAL WHITENING LOTION MIX', size: '400ML', category: 'LOTION', price: 4200, barcode: '' },
   { id: 531, name: 'TOPSY LEMON FRESH LOTION MIX ', size: '', category: 'LOTION', price: 4500, barcode: '' },
-  { id: 532, name: 'SERIAL WHITE GOLD SKIN BRIGHTENING MILK LOTION', size: '450ML', category: 'LOTION', price: 4000, barcode: '6154000257019' },
-  { id: 533, name: 'SERIAL WHITE EXCLUSIVE LIGHTENING MILK LOTION ', size: '450ML', category: 'LOTION', price: 4000, barcode: '6154000257132' },
+  { id: 532, name: 'SERIAL WHITE GOLD SKIN BRIGHTENING MILK LOTION', size: '450ML', category: 'LOTION', price: 4200, barcode: '6154000257019' },
+  { id: 533, name: 'SERIAL WHITE EXCLUSIVE LIGHTENING MILK LOTION', size: '450ML', category: 'LOTION', price: 4200, barcode: '6154000257132' },
   { id: 534, name: 'PURE SKIN REGENERANT BODY LOTION S', size: '275ML', category: 'LOTION', price: 3000, barcode: '6182000102152' },
   { id: 535, name: 'WHITE SECRET LIGHTENING BODY LOTION L', size: '500ML', category: 'LOTION', price: 4800, barcode: '6028050098819' },
   { id: 536, name: 'WHITE SECRET LIGHTENING BODY LOTION M', size: '300ML', category: 'LOTION', price: 2750, barcode: '6028050090288' },
@@ -859,12 +859,12 @@ export const products = [
   { id: 812, name: 'MOUSUF MOSUF PERFUME MIX S', size: '25ML', category: 'PERFUME', price: 3600, barcode: '' },
   { id: 813, name: 'MARQUE COLLECTION PERFUME MIX S', size: '25ML', category: 'PERFUME', price: 3000, barcode: '' },
   { id: 814, name: 'BERRYS WEEKEND PERFUME MIX S', size: '30ML', category: 'PERFUME', price: 4200, barcode: '' },
-  { id: 815, name: 'SMART COLLECTION ROLL ON OIL PERFUME MIX', size: '10ML', category: 'PERFUME', price: 1300, barcode: '' },
+  { id: 815, name: 'SMART COLLECTION ROLL ON OIL PERFUME MIX', size: '10ML', category: 'PERFUME', price: 1500, barcode: '' },
   { id: 816, name: 'CROWN PERFUMES SOFT AL-REHAB PERFUME', size: '35ML', category: 'PERFUME', price: 4500, barcode: '6291110018496' },
   { id: 817, name: 'CROWN PERFUMES FRENCH COFFEE AL-REHAB PERFUME', size: '35ML', category: 'PERFUME', price: 4500, barcode: '' },
   { id: 818, name: 'MOUSUF MOSUF PERFUME MIX L', size: '100ML', category: 'PERFUME', price: 17500, barcode: '' },
   { id: 819, name: 'TOUCH EDITION CONCENTRATED OIL PERFUME MIX', size: '5ML', category: 'PERFUME', price: 1200, barcode: '' },
-  { id: 820, name: 'RAMZ LATTAFA PERFUME', size: '100ML', category: 'PERFUME', price: 22000, barcode: '6291106066715' },
+  { id: 820, name: 'RAMZ LATTAFA PERFUME', size: '100ML', category: 'PERFUME', price: 23000, barcode: '6291106066715' },
   { id: 821, name: 'ABRAAJ  VALOUR PERFUME', size: '100ML', category: 'PERFUME', price: 24000, barcode: '6291106484953' },
   { id: 822, name: 'YARA LATTAFA PERFUME MIX', size: '100ML', category: 'PERFUME', price: 30000, barcode: '' },
   { id: 823, name: 'SAHEB INTENSE PERFUME', size: '100ML', category: 'PERFUME', price: 24000, barcode: '6290360594309' },
@@ -935,6 +935,26 @@ export const products = [
   { id: 883, name: 'FACEFACTS 5 CERAMIDE HYDRATING BODY WASH', size: '400ML', category: 'LIQUID SOAP', price: 10000, barcode: '5031413935844' },
   { id: 884, name: 'PURE EGYPTIAN MAGIC WHITENING HALF CASTE  WHITENING SHOWER CREAM', size: '300ML', category: 'LIQUID SOAP', price: 6000, barcode: '6150001525454' },
   { id: 885, name: 'EXTREME GLOW BODY WASH MIX PASCHAL', size: '1000ML', category: 'LIQUID SOAP', price: 10800, barcode: '' },
+  //OTHERS NEW 
+  //OTHERS NEW 
+  //OTHERS NEW 
+  //OTHERS NEW 
+  //OTHERS NEW 
+  { id: 886, name: 'STAN ELVIS SILKY WHITE LOTION EXCLUSIVE LOTION MIX', size: '400ML', category: 'LOTION', price: 11400, barcode: '' },
+  { id: 887, name: 'LIGHT UP BEAUTY LOTION L', size: '400ML', category: 'LOTION', price: 6600, barcode: '6043000036963' },
+  { id: 888, name: 'LIGHT UP BEAUTY LOTION S', size: '200ML', category: 'LOTION', price: 3600, barcode: '6043000039063' },
+  { id: 889, name: 'PIMENT DOUX SHOWER MILK BATH', size: '1300ML', category: 'LIQUID SOAP', price: 4800, barcode: '6156000234687' },
+  { id: 890, name: 'NATURESSENCE SWISS COLLAGEN BODY CREAM', size: '462.9ML', category: 'LOTION', price: 16500, barcode: '021903729225' },
+  { id: 891, name: 'OUD TOUCH FRANCK OLIVIER PARIS PERFUME MAIN', size: '100ML', category: 'PERFUME', price: 36000, barcode: '3516641417314' },
+  { id: 892, name: 'MOUSUF MOSUF PERFUME MIX M', size: '50ML', category: 'PERFUME', price: 5000, barcode: '' },
+  { id: 893, name: 'SIGNATURE COLLECTION FANTASY BODY MIST MIX', size: '250ML', category: 'PERFUME', price: 4500, barcode: '' },
+  { id: 894, name: 'HANNA\'S SECRET MONOGOTAS PERFUME MIX', size: '100ML', category: 'PERFUME', price: 3600, barcode: '' },
+  { id: 895, name: 'GILLETTE SHAVE FOAM ORIGINAL SCENT SENSITIVE SCENTED', size: '200ML', category: 'TOILETRIES', price: 5000, barcode: '7702018980932' },
+  { id: 896, name: 'MAGIC RAZORLESS CREAM SHAVE REGULAR STRENGTH', size: '170G', category: 'TOILETRIES', price: 8400, barcode: '072790000188' },
+  { id: 897, name: 'MAGIC RAZORLESS CREAM SHAVE EXTRA STRENGTH', size: '170G', category: 'TOILETRIES', price: 12000, barcode: '075285008270' },
+  { id: 898, name: 'LONGRICH TOOTHPASTE', size: '200G', category: 'TOILETRIES', price: 7000, barcode: '6945573601039' },
+  { id: 899, name: 'ULTREX ULTRA THIN PANTY LINERS 30', size: '', category: 'TOILETRIES', price: 2000, barcode: '5060110224951' },
+  { id: 900, name: 'LOVE PANTY LINERS 30 NORMAL', size: '', category: 'TOILETRIES', price: 1500, barcode: '5050796006224' },
 
 
 
