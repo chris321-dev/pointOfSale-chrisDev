@@ -372,7 +372,7 @@ export const products = [
   { id: 349, name: 'FAMILIA VITAMIN E BODY LOTION L', size: '750ML', category: 'LOTION', price: 3600, barcode: '6181100325447' },
   { id: 350, name: 'FAMILIA VITAMIN E BODY LOTION M', size: '500ML', category: 'LOTION', price: 2300, barcode: '6181100321715' },
   { id: 351, name: 'FAMILIA CREAM L ', size: '390ML', category: 'LOTION', price: 2500, barcode: '6181100320657' },
-  { id: 352, name: 'FAMILIA VITAMIN E POMADE S', size: '220ML', category: 'LOTION', price: 2400, barcode: '6181100380552' },
+  { id: 352, name: 'FAMILIA VITAMIN E POMADE S', size: '220ML', category: 'LOTION', price: 2000, barcode: '6181100380552' },
   { id: 353, name: 'FAMILIA VITAMIN E POMADE L', size: '390ML', category: 'LOTION', price: 4800, barcode: '6181100381153' },
   //TOILETRIES
   //TOILETRIES
